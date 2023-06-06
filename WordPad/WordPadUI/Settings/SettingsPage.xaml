@@ -134,19 +134,19 @@
                     </StackPanel>
                     <StackPanel x:Name="AboutSection" Grid.Row="2" Margin="{StaticResource ContentBottomWideSpacing}">
                         <TextBlock Style="{StaticResource SectionHeader}" Text="About this app"/>
-                        <TextBlock x:Name="PackageVersionText" IsTextSelectionEnabled="True" Text="FluentPad 11.2110.13.0"/>
-                        <TextBlock x:Name="CopyrightText" Margin="{StaticResource ContentBottomWideSpacing}" Text="© 2023 Lixkote. All rights reserved."/>
-                        <HyperlinkButton  Margin="{StaticResource HyperlinkButtonMargin}" NavigateUri="https://github.com/Lixkote/WritePad" >
+                        <TextBlock x:Name="PackageVersionText" IsTextSelectionEnabled="True" Text="TextPad 11.2306.2.0"/>
+                        <TextBlock x:Name="CopyrightText" Margin="{StaticResource ContentBottomWideSpacing}" Text="© 2023 jpb. Licensed under the MIT License."/>
+                        <HyperlinkButton  Margin="{StaticResource HyperlinkButtonMargin}" NavigateUri="https://github.com/jpbandroid/TextPad" >
                             <TextBlock Text="Source Code"/>
                         </HyperlinkButton>
-                        <HyperlinkButton  Margin="{StaticResource HyperlinkButtonMargin}" NavigateUri="https://github.com/Lixkote/WritePad/blob/main/LICENSE" >
+                        <HyperlinkButton  Margin="{StaticResource HyperlinkButtonMargin}" NavigateUri="https://github.com/jpbandroid/TextPad/blob/main/LICENSE" >
                             <TextBlock Text="MIT License"/>
                         </HyperlinkButton>
 
 
                         <Button Margin="{StaticResource ContentTopLargeSpacing}" Content="Send feedback" Click="Button_Click" />
                         <TextBlock x:Name="GithubText" Margin="0,15,0,24">
-                            To learn how you can contribute to FluentPad,  <LineBreak/>check out the project on its <Hyperlink NavigateUri="https://github.com/Lixkote/WritePad" TextDecorations="None"> GitHub</Hyperlink> page
+                            To learn how you can contribute to TextPad,  <LineBreak/>check out the project on its <Hyperlink NavigateUri="https://github.com/jpbandroid/TextPad" TextDecorations="None"> GitHub</Hyperlink> page
                         </TextBlock>
                     </StackPanel>
                     <Button Style="{StaticResource MenuButton}" x:Name="BackButton" Click="BackButton_Click" Content="&#xE0A6;" Margin="-55,23,0,0" VerticalAlignment="Top" Height="35" Width="44" Background="{x:Null}" BorderBrush="{x:Null}" FocusVisualSecondaryBrush="{x:Null}" FontFamily="Segoe Fluent Icons" FontSize="16"/>
