@@ -181,16 +181,19 @@
                     </StackPanel>
                     <StackPanel x:Name="AboutSection" Grid.Row="2" Margin="{StaticResource ContentBottomWideSpacing}">
                         <TextBlock Style="{StaticResource SectionHeader}" Text="About this app"/>
-                        <TextBlock x:Name="PackageVersionText" IsTextSelectionEnabled="True" Text="RectifyPad 11.2110.13.0"/>
-                        <TextBlock x:Name="CopyrightText" Margin="{StaticResource ContentBottomWideSpacing}" Text="© 2023 Rectify11 Team. All rights reserved."/>
-                        <HyperlinkButton  Margin="{StaticResource HyperlinkButtonMargin}" NavigateUri="https://github.com/Lixkote/WritePad" >
+                        <TextBlock x:Name="PackageVersionText" IsTextSelectionEnabled="True" Text="TextPad 11.2310.1.0"/>
+                        <TextBlock x:Name="CopyrightText" Margin="{StaticResource ContentBottomWideSpacing}" Text="© 2023 jpb. Licensed under the MIT License."/>
+                        <HyperlinkButton  Margin="{StaticResource HyperlinkButtonMargin}" NavigateUri="https://github.com/jpbandroid/TextPad" >
                             <TextBlock Text="Source Code"/>
+                        </HyperlinkButton>
+                        <HyperlinkButton  Margin="{StaticResource HyperlinkButtonMargin}" NavigateUri="https://github.com/jpbandroid/TextPad/blob/main/LICENSE" >
+                            <TextBlock Text="MIT License"/>
                         </HyperlinkButton>
 
 
                         <Button x:Name="feedback" Margin="{StaticResource ContentTopLargeSpacing}" Content="Send feedback" Click="feedback_Click" />
                         <TextBlock x:Name="GithubText" Margin="0,15,0,24">
-                            To learn how you can contribute to Rectify11 and RectifyPad,  <LineBreak/>check out the projects on their <Hyperlink NavigateUri="https://github.com/MishaProductions/Rectify11Installer" TextDecorations="None"> GitHub</Hyperlink> page
+                            To learn how you can contribute to TextPad,  <LineBreak/>check out the project on its <Hyperlink NavigateUri="https://github.com/jpbandroid/TextPad" TextDecorations="None"> GitHub</Hyperlink> page
                         </TextBlock>
                     </StackPanel>
                 </Grid.Children>

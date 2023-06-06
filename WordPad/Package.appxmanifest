@@ -12,9 +12,9 @@
   IgnorableNamespaces="uap mp rescap desktop uap3 rescap3 a">
 
   <Identity
-    Name="RectifyPad"
-    Publisher="CN=lixkote"
-    Version="11.2304.10.0" />
+    Name="tecxtpad-dev"
+    Publisher="CN=jpb"
+    Version="11.2310.1.0" />
 
   <mp:PhoneIdentity PhoneProductId="b36d39c6-c6c9-49b7-8519-9919bf164161" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
