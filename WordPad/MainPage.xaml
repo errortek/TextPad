@@ -239,6 +239,8 @@
                 <ColumnDefinition Width="Auto" />
                 <ColumnDefinition Width="8" />
                 <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="16" />
+                <ColumnDefinition Width="Auto" />
             </Grid.ColumnDefinitions>
             <Image Source="/Assets/rpad16.png"
                    Width="16"
@@ -246,10 +248,17 @@
                    Grid.Column="1" />
             <TextBlock
                        x:Name="AppTitle"
-                       Text="Document - RectifyPad"
+                       Text="Document - TextPad"
                        Style="{StaticResource CaptionTextBlockStyle}"
                        VerticalAlignment="Center"
                        Grid.Column="3"/>
+            <TextBlock
+                       x:Name="AppTitleChannel"
+                       Text="DEV CHANNEL"
+                       Style="{StaticResource CaptionTextBlockStyle}"
+                       Foreground="Gray"
+                       VerticalAlignment="Center"
+                       Grid.Column="5"/>
         </Grid>
 
         <StackPanel x:Name="MenuStack"
