@@ -130,7 +130,7 @@
                     </StackPanel>
                     <StackPanel x:Name="AboutSection" Grid.Row="2" Margin="{StaticResource ContentBottomWideSpacing}">
                         <TextBlock Style="{StaticResource SectionHeader}" Text="About this app"/>
-                        <TextBlock x:Name="PackageVersionText" IsTextSelectionEnabled="True" Text="TextPad 11.2306.2.0"/>
+                        <TextBlock x:Name="PackageVersionText" IsTextSelectionEnabled="True" Text="TextPad 11.2306.3.0"/>
                         <TextBlock x:Name="CopyrightText" Margin="{StaticResource ContentBottomWideSpacing}" Text="© 2023 jpb. Licensed under the MIT License."/>
                         <HyperlinkButton  Margin="{StaticResource HyperlinkButtonMargin}" NavigateUri="https://github.com/jpbandroid/TextPad" >
                             <TextBlock Text="Source Code"/>

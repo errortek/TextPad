@@ -10,7 +10,7 @@
   <Identity
     Name="tecxtpad-dev"
     Publisher="CN=jpb"
-    Version="11.2306.2.0" />
+    Version="11.2306.3.0" />
 
   <mp:PhoneIdentity PhoneProductId="b36d39c6-c6c9-49b7-8519-9919bf164161" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
