@@ -33,10 +33,10 @@
       Executable="$targetnametoken$.exe"
       EntryPoint="WritePad.App">
       <uap:VisualElements
-        DisplayName="WritePad"
+        DisplayName="TextPad"
         Square150x150Logo="Assets\Square150x150Logo.png"
         Square44x44Logo="Assets\Square44x44Logo.png"
-        Description="WritePad is the basic word processor. It is more advanced than Windows Notepad, and simpler than Microsoft Word and Microsoft Works (last updated in 2007). WritePad is an free and Open Source alternative to Windows WordPad."
+        Description="TextPad is the basic word processor. It is more advanced than Windows Notepad, and simpler than Microsoft Word and Microsoft Works (last updated in 2007). WritePad is an free and Open Source alternative to Windows WordPad."
         BackgroundColor="transparent">
         <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" Square71x71Logo="Assets\SmallTile.png" Square310x310Logo="Assets\LargeTile.png"/>
         <uap:SplashScreen Image="Assets\SplashScreen.png" />

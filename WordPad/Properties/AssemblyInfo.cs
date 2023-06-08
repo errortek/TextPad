@@ -4,12 +4,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("RectifyPad")]
+[assembly: AssemblyTitle("TextPad")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("RectifyPad")]
-[assembly: AssemblyCopyright("Copyright ©  2023")]
+[assembly: AssemblyProduct("TextPad")]
+[assembly: AssemblyCopyright("Copyright ©  2023 jpb")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
