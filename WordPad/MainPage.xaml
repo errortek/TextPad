@@ -275,11 +275,19 @@
         </StackPanel>
 
         <Button Style="{StaticResource MenuButton}"
-                Content=""
-                ToolTipService.ToolTip="Send feedback"
+                ToolTipService.ToolTip="Settngs"
                 ToolTipService.Placement="Bottom"
                 Grid.Row="2"
-                Click="Feedback_Click" Margin="0,0,8,0" HorizontalAlignment="Right" />
+                Click="Feedback_Click" Margin="0,0,8,0" HorizontalAlignment="Right">
+            <Button.Content>
+                <muxc:AnimatedIcon x:Name='GameSettingsIcon' MaxHeight="16"
+                MaxWidth="16">
+                    <muxc:AnimatedIcon.Source>
+                        <animatedvisuals:AnimatedSettingsVisualSource/>
+                    </muxc:AnimatedIcon.Source>
+                </muxc:AnimatedIcon>
+            </Button.Content>
+        </Button>
         <Grid x:Name="PrintPreviewRibbon" Background="{ThemeResource RibbonBackground}"
             BorderBrush="{ThemeResource RibbonBorder}"
             BorderThickness="0,1"
@@ -1718,15 +1726,14 @@
               Grid.Row="4"
               SizeChanged="EditorContentHost_SizeChanged">
 
-            <Grid x:Name="EditorGrid" Background="White"
+            <Grid x:Name="EditorGrid"
                   Width="816"
-                  Margin="0,40,0,0"
-                  RequestedTheme="Light" BorderBrush="#e8e8e8" BorderThickness="1,1,1,0" HorizontalAlignment="Center">
+                  Margin="0,40,0,0" BorderBrush="#e8e8e8" BorderThickness="1,1,1,0" HorizontalAlignment="Center" Background="{ThemeResource SystemColorButtonFaceBrush}">
                 <Grid.RenderTransform>
                     <ScaleTransform ScaleX="{x:Bind ZoomSlider.Value, Mode=OneWay}" ScaleY="{x:Bind ZoomSlider.Value, Mode=OneWay}" CenterX="{Binding ElementName=EditorGrid, Path=Width, Converter={StaticResource HalfValueConverter}}" CenterY="{Binding ElementName=EditorGrid, Path=Height, Converter={StaticResource HalfValueConverter}}"/>
                 </Grid.RenderTransform>
                 <RichEditBox x:Name="Editor"
-                             Style="{StaticResource MinEditStyle}" SelectionChanged="editor_SelectionChanged" TextChanged="Editor_TextChanged" IsSpellCheckEnabled="False">
+                             Style="{StaticResource MinEditStyle}" SelectionChanged="editor_SelectionChanged" TextChanged="Editor_TextChanged" IsSpellCheckEnabled="False" Background="White">
                     <RichEditBox.RenderTransform>
                         <ScaleTransform ScaleX="{x:Bind ZoomSlider.Value, Mode=OneWay}" ScaleY="{x:Bind ZoomSlider.Value, Mode=OneWay}"/>
                     </RichEditBox.RenderTransform>

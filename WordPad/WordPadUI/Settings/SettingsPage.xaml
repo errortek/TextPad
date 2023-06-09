@@ -69,7 +69,16 @@
                             <ColumnDefinition Width="8" />
                             <ColumnDefinition Width="Auto" />
                         </Grid.ColumnDefinitions>
-                        <Button Style="{StaticResource MenuButton}" x:Name="BackButton" Click="BackButton_Click" Content="&#xE0A6;" VerticalAlignment="Top" Height="24" Width="24" Background="{x:Null}" BorderBrush="{x:Null}" FocusVisualSecondaryBrush="{x:Null}" FontFamily="Segoe Fluent Icons" FontSize="16" Grid.Column="1"/>
+                        <Button Style="{StaticResource MenuButton}" x:Name="BackButton" Click="BackButton_Click" VerticalAlignment="Top" Height="24" Width="24" Grid.Column="1">
+                            <Button.Content>
+                                <muxc:AnimatedIcon x:Name='GameSettingsIcon' MaxHeight="16"
+                MaxWidth="16">
+                                    <muxc:AnimatedIcon.Source>
+                                        <animatedvisuals:AnimatedBackVisualSource/>
+                                    </muxc:AnimatedIcon.Source>
+                                </muxc:AnimatedIcon>
+                            </Button.Content>
+                        </Button>
                         <Image Source="/Assets/StoreLogo.png"
                    Width="16"
                    Height="16"
