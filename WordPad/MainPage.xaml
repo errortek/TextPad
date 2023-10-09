@@ -242,7 +242,7 @@
                 <ColumnDefinition Width="16" />
                 <ColumnDefinition Width="Auto" />
             </Grid.ColumnDefinitions>
-            <Image Source="/Assets/rpad16.png"
+            <Image Source="/Assets/StoreLogo.scale-100.png"
                    Width="16"
                    Height="16"
                    Grid.Column="1" />
